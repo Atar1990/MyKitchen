@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #31aebe41;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(35, 35, 54);
+}
+
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+button {
+  height: 70px;
+  width: 150px;
+  font-size: 20px;
+  font-family: cursive;
+  border-radius: 25px;
+  background-color: rgb(247, 194, 198);
+  margin: 20px;
+}
+
+.recipes {
+  display: flex;
+  min-height: 200px;
+  width: 600px;
+  margin: 20px;
+  background: rgb(232, 148, 235);
+  justify-content: start;
+  align-items: center;
+  border: palegreen solid 5px;
+  border-radius: 25px;
+}
+
+#header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+  height: 100px;
+  width: 150px;
+}
+
+.recipe {
+  width: 33.33%;
+  margin: 1px;
+  border-radius: 25px;
+}
