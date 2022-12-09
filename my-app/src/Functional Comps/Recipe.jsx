@@ -5,9 +5,6 @@ export default function Recipe({ item, handleClick }) {
         <img src={item.img} alt='lo tov' />
         <div className="title">{item.name}</div>
         <div className="calories">Calories: {item.calories}</div>
-        <button onClick={() =>{
-            console.log('recipe');
-            handleClick();
-        }}>{!item.isReady ? 'prepare' : 'eat'}</button>
+        <button onClick={() => handleClick()}>{!item.isReady ? 'prepare' : 'eat'}</button>
     </div>;
 }
